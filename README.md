@@ -15,9 +15,9 @@ The general cost function for A* can be written as:
    - \( h(n) \) is the heuristic estimate of the cost to reach the goal from the current node. This heuristic is often the Euclidean or Manhattan distance.
 
 2. **Actual Cost (g(n))**:
-   \[
+   $$
    g(n) = g(n_{parent}) + d(n_{parent}, n)
-   \]
+   $$
    Where \( n_{parent} \) is the parent node of node \( n \), and \( d(n_{parent}, n) \) is the cost to move from the parent node to the current node (usually the distance between adjacent nodes).
 
 3. **Heuristic Function (h(n))**:
